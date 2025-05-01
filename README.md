@@ -5,6 +5,7 @@ Twitter has long struggled with the issue of automated users (bots). These bots 
 Detecting these bots is critical. Agencies like the FBI and other government organizations invest resources into uncovering these bot networks. Our goal is to apply domain adaptation to improve the performance of existing Twitter bot detection models, and then compare our updated model’s results to previous benchmarks.
 
 Midproject presentation - https://youtu.be/nlXt7jhy3c8
+
 Final presentation - 
 
 ## How to use our Code
@@ -24,7 +25,7 @@ Uses the following selected features: {age, location, is verified, total tweets,
 Combined test set from both datasets
 Uses binary cross entropy loss and adam
 
-##2023 Dataset
+## 2023 Dataset
 Applied domain adaptation using a 2023 dataset with labeled fake accounts and real accounts.
 Uses the following selected features: {"avg_tweet_length", "avg_retweets", "avg_mentions", "follower_count", "is_verified", "has_location", "account_age_days"}
 Combined test set from both datasets
