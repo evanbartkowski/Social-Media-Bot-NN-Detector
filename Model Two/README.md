@@ -4,6 +4,8 @@ This model is obtained from the twitbo22 benchmark[2].
 Requirements
 
  ```pip: pip install -r requirements.txt ```
+
+ 
  ```conda : conda install --yes --file requirements.txt ```
 
 How to reproduce:
@@ -11,6 +13,8 @@ How to reproduce:
 specify the dataset by entering corresponding folder
 
  ```cresci-15 : cd cresci_15/```
+
+ 
  ```twibot-22 : cd twibot_22/```
 
 preprocess the dataset by running:
