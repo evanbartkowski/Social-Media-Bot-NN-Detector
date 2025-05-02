@@ -26,6 +26,9 @@ train BotRGCN model by running:
  ```python train.py ```
 
 
+For anyone who need to just use the trained model for domain adaptation or any other usage, you can find saved models in the  ```saved_models``` directory
+
+
 Notice:
 
 1. For running cresci2015, it is better to use instruction by [3].
