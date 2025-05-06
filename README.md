@@ -33,7 +33,14 @@ Uses binary cross entropy loss and adam
 
 
 ## Reddit Dataset
-...
+Applied domain adaptation using a dataset of Reddit accounts labeled as bots and humans. Bot usernames were sourced from [Brian Norlander's GitHub repository](https://github.com/norMNfan/Reddit-Bot-Classifier), while human usernames were sampled from a large public Reddit user dump on [Kaggle](https://www.kaggle.com/datasets/colinmorris/reddit-usernames).
+
+Account metadata was extracted for each user using the PRAW API, including the following features:
+{account_age, post_count, comment_count, avg_post_score, avg_comment_score, total_post_score, total_comment_score, post_to_comment_ratio, avg_post_length, avg_comment_length}
+
+Data was cleaned and consolidated into a single CSV file.
+Model was trained using the same architecture as the Twitter datasets (Dense → Dense → Output), with binary cross entropy loss and the Adam optimizer.
+
 
 ## Model Two Architecture
 - Feature Extractors:
@@ -44,9 +51,9 @@ Uses binary cross entropy loss and adam
 - Graph Processing:
 - Input Transformation: Linear(32 → 32) + LeakyReLU.
 - RGCNConv Layer: Processes graph structure with 2 relation types.
-- Output Layers:- Intermediate: 
-- Linear(32 → 32) + LeakyReLU.
-- Final: Linear(32 → 2) for classification.
+- Output Layers:
+    - Intermediate: Linear(32 → 32) + LeakyReLU.
+    - Final: Linear(32 → 2) for classification.
 Parameter Count:
 - Total: 17,650.
 - Trainable: 17,650.
@@ -56,14 +63,10 @@ Loss Function:
 Cross Entropy
 
 ## Sources
-[https://botometer.osome.iu.edu/bot-repository/datasets.html
-
-https://github.com/warproxxx/Twitter-Bot-or-Not](https://botometer.osome.iu.edu/bot-repository/datasets.html
-
-https://github.com/warproxxx/Twitter-Bot-or-Not
-
-(Model 2) https://github.com/LuoUndergradXJTU/TwiBot-22/
-
-(Model 2) https://github.com/travistangvh/TwitterBotBusters/tree/master/src/BotRGCN
-
-(Cresci-2015) https://arxiv.org/abs/1509.04098)
+- [Botometer Dataset Repository](https://botometer.osome.iu.edu/bot-repository/datasets.html)
+- [Twitter Bot or Not GitHub](https://github.com/warproxxx/Twitter-Bot-or-Not)
+- [TwiBot-22 GitHub](https://github.com/LuoUndergradXJTU/TwiBot-22/)
+- [BotRGCN GitHub](https://github.com/travistangvh/TwitterBotBusters/tree/master/src/BotRGCN)
+- [Cresci-2015 Paper](https://arxiv.org/abs/1509.04098)
+- [Reddit Usernames Dataset on Kaggle](https://www.kaggle.com/datasets/colinmorris/reddit-usernames)  
+- [Reddit Bot Classifier GitHub (Brian Norlander)](https://github.com/norMNfan/Reddit-Bot-Classifier)
