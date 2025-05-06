@@ -6,7 +6,7 @@ Detecting these bots is critical. Agencies like the FBI and other government org
 
 Midproject presentation - https://youtu.be/nlXt7jhy3c8
 
-Final presentation - 
+Final presentation - https://docs.google.com/presentation/d/18p6k9qD9D3JejTCyyiunIBkLKuIW43vVnejXGvO5U6Q/edit?usp=sharing
 
 ## How to use our Code
 Model One 2015 & 2023 - Download all files in the folder and open the .ipynb file in either Google Colab or Jupyter Notebook. Insert the CSV datasets into the environment, and run all code blocks sequentially.
