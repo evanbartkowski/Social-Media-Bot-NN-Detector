@@ -4,9 +4,11 @@ Twitter has long struggled with the issue of automated users (bots). These bots 
 
 Detecting these bots is critical. Agencies like the FBI and other government organizations invest resources into uncovering these bot networks. Our goal is to apply domain adaptation to improve the performance of existing Twitter bot detection models, and then compare our updated model’s results to previous benchmarks.
 
-Midproject presentation - https://youtu.be/nlXt7jhy3c8
+Midproject presentation video - https://youtu.be/nlXt7jhy3c8
 
-Final presentation - https://docs.google.com/presentation/d/18p6k9qD9D3JejTCyyiunIBkLKuIW43vVnejXGvO5U6Q/edit?usp=sharing
+Final presentation slides - https://docs.google.com/presentation/d/18p6k9qD9D3JejTCyyiunIBkLKuIW43vVnejXGvO5U6Q/edit?usp=sharing
+
+Final presentation report - https://docs.google.com/document/d/16xPKIEz89IP0MbSs84vw0F77zeyu-RUohs4MM648QzU/edit?tab=t.0
 
 ## How to use our Code
 Model One 2015 & 2023 - Download all files in the folder and open the .ipynb file in either Google Colab or Jupyter Notebook. Insert the CSV datasets into the environment, and run all code blocks sequentially.
