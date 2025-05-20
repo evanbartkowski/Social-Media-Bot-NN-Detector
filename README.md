@@ -8,7 +8,7 @@ Midproject presentation video - https://youtu.be/nlXt7jhy3c8
 
 Final presentation slides - https://docs.google.com/presentation/d/18p6k9qD9D3JejTCyyiunIBkLKuIW43vVnejXGvO5U6Q/edit?usp=sharing
 
-Final presentation report - https://docs.google.com/document/d/16xPKIEz89IP0MbSs84vw0F77zeyu-RUohs4MM648QzU/edit?tab=t.0
+Final presentation report - https://drive.google.com/file/d/1JUXtz70BOycEnEdPG1_vLlDdBF4Ggw9-/view?usp=sharing
 
 ## How to use our Code
 Model One 2015 & 2023 - Download all files in the folder and open the .ipynb file in either Google Colab or Jupyter Notebook. Insert the CSV datasets into the environment, and run all code blocks sequentially.
